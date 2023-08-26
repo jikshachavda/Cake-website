@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Cake-website/static/css/main.be682427.css",
+    "main.js": "/Cake-website/static/js/main.d46dca47.js",
+    "static/js/787.ae34d3ce.chunk.js": "/Cake-website/static/js/787.ae34d3ce.chunk.js",
+    "static/media/Gallery-4.png": "/Cake-website/static/media/Gallery-4.ef068a6a1d29b770e254.png",
+    "static/media/Gallery-2.jfif": "/Cake-website/static/media/Gallery-2.0450b6d6bb4e4ec52e6b.jfif",
+    "static/media/cake-bg-3.jpg": "/Cake-website/static/media/cake-bg-3.acd6eca13cd008ed4c68.jpg",
+    "static/media/Contact.png": "/Cake-website/static/media/Contact.4da9b922e21f1fcae803.png",
+    "static/media/Gallery-5.jfif": "/Cake-website/static/media/Gallery-5.6c684af8fec79af980aa.jfif",
+    "static/media/Justine-Eacott-1.jpg": "/Cake-website/static/media/Justine-Eacott-1.3e9350be0f7d03fee63c.jpg",
+    "static/media/Lamingtons.jfif": "/Cake-website/static/media/Lamingtons.92c4f85759eb519d215e.jfif",
+    "static/media/Wedding cake.jfif": "/Cake-website/static/media/Wedding cake.980a86be4356245e1aea.jfif",
+    "static/media/coconut cake.jfif": "/Cake-website/static/media/coconut cake.0a2f88135592e0a5de5b.jfif",
+    "static/media/Cupcakes - 1.jfif": "/Cake-website/static/media/Cupcakes - 1.fa38f05b7ccec7137b54.jfif",
+    "static/media/Ice Cream Cake-1.jfif": "/Cake-website/static/media/Ice Cream Cake-1.f3c6ed6ba3a7a3291cdf.jfif",
+    "static/media/Chocolate Cake -1.jfif": "/Cake-website/static/media/Chocolate Cake -1.f622ffbdbc198cfe49ec.jfif",
+    "static/media/Gallery-7.jfif": "/Cake-website/static/media/Gallery-7.b770071cee67ddc3fb28.jfif",
+    "static/media/Gallery-9.jfif": "/Cake-website/static/media/Gallery-9.4c1c54c078846cb0e1a8.jfif",
+    "static/media/King Cake.jfif": "/Cake-website/static/media/King Cake.86d2b3c990362b6af55b.jfif",
+    "static/media/Gallery-1.jfif": "/Cake-website/static/media/Gallery-1.b22c3434e3ecf91db329.jfif",
+    "static/media/Gallery-3.jfif": "/Cake-website/static/media/Gallery-3.15cf70db779b9493887e.jfif",
+    "static/media/Red Velvet.jfif": "/Cake-website/static/media/Red Velvet.2c71f06487295c509dd3.jfif",
+    "static/media/Gallery-6.jfif": "/Cake-website/static/media/Gallery-6.25fce6114e5bde9cad85.jfif",
+    "static/media/macarons-cake.jfif": "/Cake-website/static/media/macarons-cake.875f08f2b30561d7d7c7.jfif",
+    "static/media/Gallery-8.jfif": "/Cake-website/static/media/Gallery-8.1249c6c4c01884986f6d.jfif",
+    "static/media/chef-1.jpg": "/Cake-website/static/media/chef-1.ba6faa87fbe55c0b4c2e.jpg",
+    "index.html": "/Cake-website/index.html",
+    "main.be682427.css.map": "/Cake-website/static/css/main.be682427.css.map",
+    "main.d46dca47.js.map": "/Cake-website/static/js/main.d46dca47.js.map",
+    "787.ae34d3ce.chunk.js.map": "/Cake-website/static/js/787.ae34d3ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be682427.css",
+    "static/js/main.d46dca47.js"
+  ]
+}
