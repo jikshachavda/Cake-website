@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    transition: all .5s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.btn {
+    font-size: 2rem;
+    background-color: #ff3690;
+    border: .4rem solid #fff;
+    border-radius: 4rem;
+    padding: 1rem 5rem;
+    color: #fff;
+    display: inline-block;
+    transition: all .5s;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: .4rem solid #ff3690;
+    color: #ff3690;
+    letter-spacing: .2rem;
+}
+
+.container {
+    width: 100%;
+    height: 65rem;
+    background-image: url(images/cake-bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .content {
+    width: 50%;
+    height: auto;
+}
+
+.container .content h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.container .content h2 span {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: #ff3690;
+}
+
+.container .content p {
+    font-size: 2.5rem;
+}
+
+.About-Section {
+    padding: 2rem 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.About-Section .images {
+    width: 31rem;
+    border-radius: 4rem;
+    transition: all .5s;
+}
+
+.About-Section .images img {
+    width: 100%;
+}
+
+.About-Section img:hover {
+    border-radius: 1rem;
+}
+
+.About-Section .About-content {
+    width: 71%;
+}
+
+.About-Section .About-content h2 {
+    font-size: 4rem;
+}
+
+.About-Section .About-content h2 span {
+    color: #ff3690;
+    font-size: 4.3rem;
+}
+
+.About-Section .About-content p {
+    font-size: 1.6rem;
+    padding-right: 2rem;
+    margin: 1rem 0rem;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    word-spacing: .5rem;
+}
+
+.About-container {
+    background-image: url(images/Justine-Eacott-1.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    /* color: #fff; */
+    padding: 5rem 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    word-spacing: .5rem;
+}
+
+.shop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 10rem;
+}
+
+.shop_section {
+    position: relative;
+    overflow: hidden;
+}
+
+.shop_section .images {
+    width: 33rem;
+    height: 36rem;
+}
+
+.shop_section .images img {
+    width: 100%;
+    height: 100%;
+}
+
+.shop_section:hover .details {
+    left: 6%;
+}
+
+.shop_section:hover .images {
+    opacity: .5;
+}
+
+.shop_section .details {
+    position: absolute;
+    top: 28%;
+    left: -100%;
+    width: 26rem;
+    text-align: center;
+    transition: all .5s;
+}
+
+.shop_section .details h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.shop_section .details p {
+    margin-top: .7rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: .1rem;
+}
+
+.shop_section .details .btn {
+    font-size: 2rem;
+    background-color: #ff3690;
+    border: .4rem solid #fff;
+    border-radius: 4rem;
+    padding: .8rem 4rem;
+    color: #fff;
+    display: inline-block;
+    margin-top: 2rem;
+    transition: all .5s
+}
+
+
+.shop_section .details .btn:hover {
+    background-color: #fff;
+    border: .4rem solid #ff3690;
+    color: #ff3690;
+}
+
+.Gallery-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 10rem;
+}
+
+.Gallery-section .item {
+    border: .7rem solid #ccc;
+    border-radius: .7rem;
+}
+
+.Gallery-section img {
+    width: 31rem;
+    height: 34rem;
+    margin: 1rem 2rem;
+    border: 0.7rem solid #ccc;
+    border-radius: 2rem;
+}
+
+.Gallery-section img:hover {
+    transform: scale(1.1);
+}
+
+.Contact-section {
+    padding: 2rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Contact-section .input-text {
+    padding: 2rem 1rem;
+    width: 55%;
+}
+
+.Contact-section .input-text h2 {
+    font-size: 2rem;
+}
+
+.Contact-section .input-text input {
+    width: 98%;
+    padding: 1rem;
+    border: 0.2rem solid #eee;
+    margin: 1rem 0rem;
+}
+
+.Contact-section .input-text textarea {
+    width: 98%;
+    padding: 1rem;
+    border: 0.2rem solid #eee;
+    margin: 1rem 0rem;
+    resize: none;
+}
+
+.Contact-section .btn {
+    bottom: 0%;
+}
+
+
+@media (max-width: 998px) {
+    .About-Section {
+        padding: 2rem 2rem;
+    }
+}
+
+@media (max-width: 798px) {
+    .btn {
+        padding: 1rem;
+    }
+
+    .container .content {
+        width: 70%;
+    }
+
+    .container .content h2 {
+        font-size: 2.5rem;
+    }
+
+    .container .content h2 span {
+        font-size: 2.7rem;
+    }
+
+    .container .content p {
+        font-size: 1.5rem;
+    }
+
+    .shop-container {
+        padding: 2rem;
+    }
+
+    .Gallery-section {
+        padding: 2rem;
+    }
+
+    .Contact-section {
+        padding: 2rem;
+    }
+
+    .Contact-section .input-text input {
+        width: 100%;
+    }
+
+    .Contact-section .input-text textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        padding: 2rem;
+        background-position: center;
+    }
+
+    .container .content {
+        width: 100%;
+    }
+
+    .About-Section {
+        padding: 1rem;
+    }
+}
